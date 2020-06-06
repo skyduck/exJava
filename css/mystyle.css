@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.ex-layout{
+	width: 500px;
+}
+.ex-layout .gnb{
+	padding: 15px;
+	background-color: skyblue;
+}
+.ex-layout .main{
+	background-color: white;
+}
+.ex-layout .main:after{ clear: both; display: block; content: '' }
+
+.ex-layout .main .lnb{
+	float: left;
+	width: 100px;
+	height: 254px;
+	background-color: orange;
+}
+.ex-layout .main .rnb{
+	float: left;
+	width: 400px;
+	height: 250px;
+	background-color: green;
+}
+.ex-layout .main .content{
+	float: left;
+	width: 400px;
+}
+.ex-layout .footer .foot{
+	padding: 15px;
+	background-color: red;
+}
